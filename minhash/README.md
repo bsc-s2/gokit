@@ -40,7 +40,7 @@ similarity, err := h0.GetSimilarity(h1)
 See the associated [GoDoc](http://godoc.org/github.com/bsc-s2/gokit/minhash)
 
 ## Example
-See *func TestMinHashError(t `*`testing.T)* in minhash_test.go
+See *`func TestMinHashError(t *testing.T)`* in minhash_test.go
 
 ## More Details
 * [存储中的文件合并策略优化](http://drmingdrmer.github.io/tech/algorithm/2018/11/04/compact.html)
