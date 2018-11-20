@@ -119,3 +119,8 @@ func (h *MinHash) GetSimilarity(h1 *MinHash) (float64, error) {
 
 	return float64(estimated) / float64(hits), nil
 }
+
+// GetSignature returns a signature for the set.
+func (h *MinHash) GetSignature() []uint64 {
+	return h.hashes
+}
